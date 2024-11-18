@@ -24,7 +24,7 @@ if not cap:
 # Initializations
 counter = 0
 face_match = False
-reference_image = cv2.imread('image.jpg')  # Change to your image path
+reference_image = cv2.imread('Image.jpg')  # Change to your image path
 if reference_image is None:
     print("Error: Could not read reference image.")
     cap.release()
